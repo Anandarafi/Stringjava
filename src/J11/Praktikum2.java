@@ -47,6 +47,10 @@ public class Praktikum2 {
         for(int i = 0; i < arrKal.length; i++)
             System.out.println(arrKal[i] + " => " + arrCon[i]);
     }
+        private static void tampilHasil(String convert)
+    {
+        System.out.println("Kalimat Alay Angka : " + convert);
+    }
      public static void main(String[] args)
     {
         String identitas = ("Ananda Rafi Amanullah / X RPL 3 / 04");
@@ -57,6 +61,8 @@ public class Praktikum2 {
         String convert = vocal2Angka(kalimat);
         
         tampilPerKata(kalimat, convert);
+        
+        tampilHasil(convert);
 
     }
 }
